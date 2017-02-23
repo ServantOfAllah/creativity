@@ -1,7 +1,13 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
 .jumbotron { 
     background-color: #f4511e; /* Orange */
     color: #ffffff;
     padding: 100px 25px;
+    font-family: Montserrat, sans-serif
 }
 .bg-grey {
     background-color: #f6f6f6;
@@ -108,6 +114,7 @@
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
+    font-family: Montserrat, sans-serif
 }
 .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
