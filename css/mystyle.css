@@ -4,13 +4,33 @@ body {
     color: #818181;
 }
 .jumbotron { 
-    background-color: #f4511e; /* Orange */
+    background-color: #9C27B0; /* Orange */
     color: #ffffff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif
 }
+.logoBig{
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid #8E24AA;
+    padding-top: 20px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.bigfont{
+    font-family:fantasy;
+    text-align: center;
+    font-size: 4em;
+    color: #996600;
+    text-shadow: 1px 1px 3px #000;
+}
 .bg-grey {
     background-color: #f6f6f6;
+}
+.skills{
+    list-style: none;
+    padding-left: 0;
+    color: dimgrey;
 }
 .container-fluid {
     padding: 60px 50px;
@@ -60,7 +80,7 @@ body {
 }
 
 .panel {
-    border: 1px solid #f4511e; 
+    border: 1px solid #9C27B0; 
     border-radius:0;
     transition: box-shadow 0.5s;
 }
@@ -70,14 +90,14 @@ body {
 }
 
 .panel-footer .btn:hover {
-    border: 1px solid #f4511e;
+    border: 1px solid #9C27B0;
     background-color: #fff !important;
-    color: #f4511e;
+    color: #9C27B0;
 }
 
 .panel-heading {
     color: #fff !important;
-    background-color: #f4511e !important;
+    background-color: #9C27B0 !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -107,7 +127,7 @@ body {
 
 .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: #8E24AA;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -128,7 +148,10 @@ body {
     color: #fff !important;
 }
 
-.slideanim {visibility:hidden;}
+
+.slideanim {
+    visibility:hidden;
+}
 .slide {
     /* The name of the animation */
     animation-name: slide;

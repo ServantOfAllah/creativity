@@ -15,19 +15,19 @@
         <nav class="navbar navbar navbar-fixed-top">
           <div class="container">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span> 
               </button>
-              <a class="navbar-brand" href="#">Logo</a>
+              <a class="navbar-brand" href="#">Abdulmajid</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">ABOUT</a></li>
                 <li><a href="#services">SERVICES</a></li>
+                <li><a href="#about">ABOUT</a></li>
                 <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#pricing">PRICING</a></li>
                 <li><a href="#contact">CONTACT</a></li>
               </ul>
             </div>
@@ -35,8 +35,16 @@
         </nav>
         
         <div class="jumbotron text-center">
-            <h1>Company</h1> 
-            <p>We specialize in blablabla</p>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-5 logoBig">
+                    <p class="lead logomaintext"><img src="pics/A_logo2.png"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h1 class="bigfont">WEB &amp; MOBILE DEVELOPER</h1>
+                </div>
+            </div>
             <form class="form-inline">
                 <div class="input-group">
                     <input type="email" class="form-control" size="50" placeholder="email address" required>
@@ -47,50 +55,97 @@
             </form>
         </div>
         
-        <div id="about" class="container-fluid">
-            <div class="row">
-                <div class="col-sm-8">
-                    <h2>About Company Page</h2>
-                    <h4>Title</h4>
-                    <p>Lorem ipsum..</p>
-                    <button class="btn btn-default btn-lg">Get in Touch</button>
-                </div>
+        <div id="services" class="container-fluid">
+            <div class="text-center">
+                <h1>Services</h1>
+                <h4>What we do offer</h4>
+            </div>
+            <br>
+            <div class="row slideanim">
                 <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-signal logo slideanim"></span>
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <h1>UX/UI</h1>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+                                Ability to understand customer problems and how they think and perceive things. So we can create things to solve their proplems 
+                            </p>
+                        </div>
+                        
+                    </div> 
                 </div>
-            </div>  
+                
+                <div class="col-sm-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading">
+                            <h1>Mobile development</h1>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+                                There is no denying that the world has gone mobile and there is no turning back. Consumers are using their smartphones to find local businesses. Your online branding efforts are being viewed via mobile channels. Thus, just having a website is not enough anymore.
+                        </div>
+                    </div> 
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="panel panel text-center">
+                        <div class="panel-heading">
+                            <h1>Web Development</h1>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+                                Communicating your brand is a challenging task for large, small, retail or B2B companies in a saturated market. It shows your customers your identity...
+                            </p>
+                        </div>
+                        
+                    </div> 
+                </div>
+            </div>
         </div>
-        <div class="container-fluid bg-grey">
+        
+        <div id="about" class="container-fluid bg-grey text-center">  
+            <br>
             <div class="row">
-                <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-globe logo slideanim"></span>
+                <div class="col-sm-4 col-sm-offset-5">
+                      <img src="pics/mj.jpg" class="img-circle img-responsive" alt="mj" width="100" height="100">
                 </div>
-                <div class="col-sm-8">
-                    <h2>Our Values</h2>
-                    <h4><strong>MISSION:</strong> Our mission lorem ipsum..</h4> 
-                    <p><strong>VISION:</strong> Our vision Lorem ipsum..  
+            </div>
+            <div class="row ">
+                <div class="col-sm-12">
+                    <h1>Skills</h1>
+                    <ul class="skills">
+                        <li>Indepth knowledge in Html5 and css3</li>
+                        <li>Creating Responsive Website in Bootstrap</li>
+                        <li>Developing Dynamic Web Pages in PHP &amp; mySQL</li>
+                        <li>Creating Interactive Pages With Javascript &amp; Jquery</li>
+                        <li>Working With Wordpress</li>
+                        <li>Nodejs</li>
+                        <li>Android Mobile Development &amp; Design</li>
+                        <li>Working with mySqlite, Asynctask, APIs, web services etc.</li>
+                        <li>Java Programming Language</li>
+                        <li>UX/UI Design</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Working with git and github</li>
+                    </ul>
                 </div>
             </div>
         </div>
         <div id="services" class="container-fluid text-center">
             <h1>SERVICES</h1>
-            <h4>What we do offer</h4>
             <br>
             <div class="row">
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-off logo-small slideanim"></span>
                     <h4>POWER</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
                 </div>
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-heart logo-small slideanim"></span>
                     <h4>LOVE</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
                 </div>
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-lock logo-small slideanim"></span>
                     <h4>JOB DONE</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
                 </div>
             </div>
             <br>
@@ -99,58 +154,128 @@
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-leaf logo-small slideanim"></span>
                     <h4>GREEN</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
                 </div>
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-certificate logo-small slideanim"></span>
                     <h4>CERTIFIED</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
                 </div>
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-wrench logo-small slideanim"></span>
                     <h4>HARD WORK</h4>
-                    <p>Lorem ipsum dolor sit amet..</p>
                 </div>
             </div>
         </div>
         
         <div id="portfolio" class="container-fluid text-center bg-grey">
             <h1>Portfolios</h1>
-            <h4>What we have created</h4>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <img src="pics/bg34.jpg" alt="Paris">
-                        <p><strong>Paris</strong></p>
-                        <p>Yes, we built Paris</p>
+            <h4>What I have created</h4>
+            <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+            </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <img src="pics/BLUE%20WATER%20apartment%20project_b.png" alt="Paris">
+                            <p><strong>Logo Design</strong></p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <img src="pics/bg34.jpg" alt="Paris">
-                        <p><strong>Paris</strong></p>
-                        <p>Yes, we built Paris</p>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <img src="pics/bg34.jpg" alt="Paris">
-                        <p><strong>Paris</strong></p>
-                        <p>Yes, we built Paris</p>
+                    
+                    <div class="item active">
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <img src="pics/naija%20coat%20ov%20arm.jpg" alt="Paris">
+                            <p><strong>Logo Design</strong></p>
+                        </div>
+                    </div>
+                    </div>
+                        
+                    <div class="item active">
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <img src="pics/wing%20coat%20ov%20arm.jpg" alt="Paris">
+                            <p><strong>Paris</strong></p>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="item">
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <img src="pics/mjart49.jpg" alt="Paris">
+                            <p><strong>Logo Design</strong></p>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="item">
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <img src="pics/naija%20coat%20ov%20arm.jpg" alt="Paris">
+                            <p><strong>Logo</strong></p>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="item">
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <img src="pics/my%20year%202013.jpg" alt="Paris">
+                            <p><strong>Logo</strong></p>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="item">
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <img src="pics/blue%20water%20apartments_b.png" alt="Paris">
+                            <p><strong>Logo</strong></p>
+                            <p>Yes, we built Paris</p>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
-            <h2>What our customers say</h2>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+            
+            
+            <!-- <h2>What our customers say</h2>
             <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-              <!-- Indicators -->
+              
               <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
               </ol>
 
-              <!-- Wrapper for slides -->
+              
               <div class="carousel-inner" role="listbox">
+
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="pics/bg34.jpg" alt="Paris">
+                        <p><strong>Paris</strong></p>
+                        <p>Yes, we built Paris</p>
+                    </div>
+                </div>
+
                 <div class="item active">
                 <h4>"This company is the best. I am so happy with the result!"<br><span style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
                 </div>
@@ -162,7 +287,7 @@
                 </div>
               </div>
 
-              <!-- Left and right controls -->
+             
               <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
@@ -171,84 +296,17 @@
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-            </div>
-        </div>
-        
-        <div id="pricing" class="container-fluid">
-            <div class="text-center">
-                <h1>Pricing</h1>
-                <h4>Choose a payment plan that works for you</h4>
-            </div>
-            <br>
-            <div class="row slideanim">
-                <div class="col-sm-4">
-                    <div class="panel panel-default text-center">
-                        <div class="panel-heading">
-                            <h1>Basic</h1>
-                        </div>
-                        <div class="panel-body">
-                            <p><strong>20</strong> Lorem</p>
-                            <p><strong>15</strong> Ipsum</p>
-                            <p><strong>5</strong> Dolor</p>
-                            <p><strong>2</strong> Sit</p>
-                            <p><strong>Endless</strong> Amet</p>
-                        </div>
-                        <div class="panel-footer">
-                            <h3>$19</h3>
-                            <h4>per month</h4>
-                            <button class="btn btn-lg">Sign Up</button>
-                        </div>
-                    </div> 
-                </div>
-                <div class="col-sm-4">
-                    <div class="panel panel text-center">
-                        <div class="panel-heading">
-                            <h1>Pro</h1>
-                        </div>
-                        <div class="panel-body">
-                            <p><strong>20</strong> Lorem</p>
-                            <p><strong>15</strong> Ipsum</p>
-                            <p><strong>5</strong> Dolor</p>
-                            <p><strong>2</strong> Sit</p>
-                            <p><strong>Endless</strong> Amet</p>
-                        </div>
-                        <div class="panel-footer">
-                            <h3>$30</h3>
-                            <h4>per month</h4>
-                            <button class="btn btn-lg">Sign Up</button>
-                        </div>
-                    </div> 
-                </div>
-                <div class="col-sm-4">
-                    <div class="panel panel-default text-center">
-                        <div class="panel-heading">
-                            <h1>Premium</h1>
-                        </div>
-                        <div class="panel-body">
-                            <p><strong>20</strong> Lorem</p>
-                            <p><strong>15</strong> Ipsum</p>
-                            <p><strong>5</strong> Dolor</p>
-                            <p><strong>2</strong> Sit</p>
-                            <p><strong>Endless</strong> Amet</p>
-                        </div>
-                        <div class="panel-footer">
-                            <h3>$45</h3>
-                            <h4>per month</h4>
-                            <button class="btn btn-lg">Sign Up</button>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-        </div>
+            </div>-->
         
         <div id="contact" class="container-fluid bg-grey">
           <h2 class="text-center">CONTACT</h2>
           <div class="row">
             <div class="col-sm-5">
               <p>Contact us and we'll get back to you within 24 hours.</p>
-              <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-              <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-              <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p> 
+              <p><span class="glyphicon glyphicon-map-marker"></span> Dubai, UAE</p>
+              <p><span class="glyphicon glyphicon-phone"></span> +971 70 4217 506</p>
+              <p><span class="glyphicon glyphicon-envelope"></span> adamsmojeed10@gmail.com</p>
+              <p><span class="glyphicon glyphicon-envelope"></span> mojeed4@yahoo.com</p>
             </div>
             <div class="col-sm-7 slideanim">
               <div class="row">
@@ -268,13 +326,13 @@
             </div>
           </div>
         </div>
-        <div id="googleMap" style="height:400px;width:100%;"></div>
+        <!--<div id="googleMap" style="height:400px;width:100%;"></div>-->
         
         <footer class="container-fluid text-center">
           <a href="#myPage" title="To Top">
             <span class="glyphicon glyphicon-chevron-up"></span>
           </a>
-          <p>Bootstrap Theme Made By <a href="http://majidport.cu.cc" title="abdulmajid portfolio">http://www.majidport.cu.cc</a></p> 
+          <p>Adams Abdulmajid <a href="http://majidport.cu.cc" title="abdulmajid portfolio">http://www.majidport.cu.cc</a></p> 
         </footer>
         
         <script src="js/jquery-1.12.3.min.js"></script>
